@@ -13,11 +13,37 @@
     </header>
     <form>
         <h2>inserir nova imagem</h2>
-        <input type="url" required placeholder="URL da imagem" id="">
+        <input type="url" id="endereço-imagem-nova" required placeholder="URL da imagem" id="">
         <button type="submit">Adicionar</button>
         <button type="reset" id="botao-cancelar">Cancelar</button>
     </form>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <ul>
+        <li>
+            <img src="./image/foto1.jpg" alt="pintura de um gato">
+            <div class="overlay-imagem-link">
+                <a href="./image/foto1.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./image/foto2.jpg" alt="foto de uma ave">
+            <div class="overlay-imagem-link">
+                <a href="./image/foto2.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./image/foto3.jpg" alt="pintura de 2 cachorros pequenos envolvidos em um pano">
+            <div class="overlay-imagem-link">
+                <a href="./image/foto3.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver em tamanho real
+                </a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="./main.js"></script>
     
 </body>
